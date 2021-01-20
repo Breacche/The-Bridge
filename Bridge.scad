@@ -1,0 +1,116 @@
+//It's a Bridge!
+//Elias Jones 1/20/21
+
+//Road
+translate([0,0,1]) 
+color("grey")
+   cube([98.5,7,1],center=true);
+translate([0,0,1.5]) 
+color("white")
+    cube([98.5,.5,.5],center=true); 
+//Supports 
+translate([20,4,-2]) 
+color("red")
+   cube([1,1,15],center=true);
+translate([20,-4,-2]) 
+color("red")
+   cube([1,1,15],center=true);
+translate([-20,-4,-2]) 
+color("red")
+   cube([1,1,15],center=true);
+translate([-20,4,-2]) 
+color("red")
+   cube([1,1,15],center=true);
+translate([-15.85,4,7.1]) 
+rotate([0,65,0])
+color("red")
+    cube([1,1,10],center=true);  
+translate([-15.85,-4,7.1]) 
+rotate([0,65,0])
+color("red")
+    cube([1,1,10],center=true);     
+translate([15.85,4,7.1]) 
+rotate([0,-65,0])
+color("red")
+    cube([1,1,10],center=true);     
+translate([15.85,-4,7.1]) 
+rotate([0,-65,0])
+color("red")
+    cube([1,1,10],center=true);     
+translate([-5.5,4,9.65]) 
+rotate([0,85,0])
+color("red")
+    cube([1,1,12.],center=true);        
+translate([-5.5,-4,9.65]) 
+rotate([0,85,0])
+color("red")
+    cube([1,1,12.],center=true);      
+translate([5.5,-4,9.65]) 
+rotate([0,-85,0])
+color("red")
+    cube([1,1,12.],center=true);      
+translate([5.5,4,9.65]) 
+rotate([0,-85,0])
+color("red")
+    cube([1,1,12.],center=true); 
+            translate([0,0,10]) 
+rotate([0,0,0])
+color("red")
+    cube([1,8,1],center=true);       
+translate([5.5,0,9.65]) 
+rotate([0,-85,0])
+color("red")
+    cube([1,9,1],center=true);     
+translate([-5.5,0,9.65]) 
+rotate([0,85,0])
+color("red")
+    cube([1,9,1],center=true);
+translate([-11.5,0,9.1]) 
+rotate([0,75,0])
+color("red")
+    cube([1,9,1],center=true);
+translate([11.5,0,9.1]) 
+rotate([0,-75,0])
+color("red")
+    cube([1,9,1],center=true);      
+translate([-15.85,0,7.1]) 
+rotate([0,65,0])
+color("red")
+    cube([1,9,1],center=true);
+translate([15.85,0,7.1]) 
+rotate([0,-65,0])
+color("red")
+    cube([1,9,1],center=true);     
+translate([19.9,0,5.2]) 
+rotate([0,-65,0])
+color("red")
+   cube([1,9,1],center=true);   
+translate([-19.9,0,5.2]) 
+rotate([0,65,0])
+color("red")
+   cube([1,9,1],center=true);     
+//Water and Grass   
+translate([-34.25,0,-4.5])
+color("#008F0F")
+    cube([30,11,10],center=true); 
+translate([34.25,0,-4.5])
+color("#008F0F")
+    cube([30,11,10],center=true); 
+translate([0,0,-5.75]) 
+color("#0080FF")
+    cube([39,11,7.5],center=true); 
+//Code for Weights   
+translate([10,0,4])
+color("black")
+    cube(5,center=true);
+translate([8.25,-2,3.5])
+rotate([90,0,0 ])
+color("white")
+     text("75 lbs",size=1);  
+translate([-10,0,4])
+color("black")
+    cube(5,center=true);
+translate([-11.75,-2,3.5])
+rotate([90,0,0 ])
+color("white")
+     text("75 lbs",size=1);  
